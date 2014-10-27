@@ -171,5 +171,8 @@ return array(
 	 * and continue from there.
 	 */
 	'reserved' => null,
+	
+	'use_cache' => false,
+	'max_length' => null,
 
 );
