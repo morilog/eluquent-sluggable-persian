@@ -113,7 +113,7 @@ return array(
             $map = $_transliteration + $merge;
             unset($_transliteration);
 
-            return preg_replace(array_keys($map), array_values($map), $string);
+            return mb_strtolower(preg_replace(array_keys($map), array_values($map), $string));
         },
 
 	/**
